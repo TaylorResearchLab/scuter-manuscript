@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2026-09-10" />
   <meta name="citation_publication_date" content="2026-09-10" />
   <meta property="article:published_time" content="2026-09-10" />
-  <meta name="dc.modified" content="2026-09-10T16:07:51+00:00" />
-  <meta property="article:modified_time" content="2026-09-10T16:07:51+00:00" />
+  <meta name="dc.modified" content="2026-09-10T16:16:25+00:00" />
+  <meta property="article:modified_time" content="2026-09-10T16:16:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/60f57b450bf9c800f185099a00a97ae51af38e20/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/60f57b450bf9c800f185099a00a97ae51af38e20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/60f57b450bf9c800f185099a00a97ae51af38e20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/6b4f82f7f9477f5adadcde82062cc9544f9fdd0b/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/6b4f82f7f9477f5adadcde82062cc9544f9fdd0b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/6b4f82f7f9477f5adadcde82062cc9544f9fdd0b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/60f57b450bf9c800f185099a00a97ae51af38e20/))
+([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/6b4f82f7f9477f5adadcde82062cc9544f9fdd0b/))
 was automatically generated
-from [TaylorResearchLab/scuter-manuscript@60f57b4](https://github.com/TaylorResearchLab/scuter-manuscript/tree/60f57b450bf9c800f185099a00a97ae51af38e20)
+from [TaylorResearchLab/scuter-manuscript@6b4f82f](https://github.com/TaylorResearchLab/scuter-manuscript/tree/6b4f82f7f9477f5adadcde82062cc9544f9fdd0b)
 on September 10, 2026.
 </em></small>
 
@@ -114,6 +114,32 @@ The workflow was developed during one investigator's sustained coordination of G
 
 
 # Methods
+
+## Workflow development and implementation
+
+SCUTER was developed iteratively during sustained scientific work by one investigator using paid interactive versions of ChatGPT and Claude rather than model APIs. The two AI systems participated across active research projects in activities that included literature review, software development, analysis, interpretation, scientific review, documentation, and product development. The investigator, termed the **User**, retained authority over the scientific questions, access to project resources, assignment and redirection of work, interpretation of evidence, acceptance of results, and release of research products. GPT and Claude took task-dependent lead and review roles, and these roles could reverse between work units.
+
+Notion Business served as the shared scientific collaboration workspace across the participating AI systems and the User. As the workflow developed, projects used a Project Overview or other current-state record together with a structured Collaboration Log and additional scientific notebooks or working records as needed. Collaboration Log entries recorded the purpose and assignment of substantive work, methods and results, links to supporting sources and artifacts, review and acceptance state, relevant decisions, and the next action. Page bodies provided space for detailed methods, results, source checks, review findings, and other scientific context. The shared record therefore connected individual contributions to the information needed to interpret them and carried project state across AI sessions. Both AI platforms could retrieve and write to the shared Notion record through their available integrations when prompted by the User.
+
+GitHub was used for versioned research products, including source code, configuration, tests, figures, documentation, and other project artifacts. Scientific computation remained in User-controlled environments when authoritative execution or controlled data access was required. Records linked computational results to the relevant repository revision, inputs, configuration, command, execution environment, and outputs when those materials were needed to inspect or reproduce the result. This separation allowed the collaboration record to describe why work was undertaken and what had been accepted, GitHub to identify versioned product state, and the execution record to document what was actually run.
+
+For later manuscript production, the User extended this product-oriented approach using Manubot, a GitHub-based scholarly writing workflow in which manuscript source is maintained as version-controlled text and automated actions generate publication-ready documents [@doi:10.1371/journal.pcbi.1007128]. Conventional document-authoring environments available to the project, including Google Docs, Microsoft Word, and Overleaf, did not provide the participating GPT and Claude systems with comparable direct editing access in the implementation used here. Notion remained useful for the scientific collaboration record, while Manubot allowed the User and both AI participants to retrieve and edit common manuscript source, inspect exact revisions through Git history and diffs, and maintain a versioned product throughout manuscript development.
+
+The operating practices evolved over several weeks of active project work as recurring coordination and verification needs became apparent. Problems encountered during use included sessions beginning without the governing project state, claims or analyses lacking supporting evidence, discrepancies between collaboration records and stored artifacts, incomplete execution records, inaccessible or misplaced files, and uncertainty about which revision had been reviewed or accepted. In response, the workflow increasingly used bounded assignments, explicit links to governing context, artifact and source verification, task-dependent reciprocal review, structured handoffs, maintenance of accepted project state, and explicit User decisions about acceptance and scientific redirection. These practices were refined through use across projects rather than introduced as a complete protocol at project outset.
+
+Once the recurring practices were sufficiently stable for reuse, they were formalized as **SCUTER (Scientific Collaboration for User-directed, Traceable, Evidence-based Research)** and subsequently packaged as an Agent Skill, together with a complete Markdown edition for systems that accept document-based instructions. The Skill provides reusable operating instructions, templates, review procedures, and implementation guidance derived from the workflow. The retrospective corpus described below captures the scientific collaboration process from which these practices emerged; the packaged Skill represents the subsequent formalization of that experience into a reusable implementation. Detailed schemas, templates, configuration information, and adoption procedures are provided in the Supplementary Material.
+
+## Retrospective evaluation
+
+We conducted a retrospective descriptive case study of one User coordinating GPT and Claude across private scientific workspaces that used the structured Collaboration Log. Before extraction, a fixed analytical cutoff was established and the eligible records were frozen for analysis. The resulting corpus contained **728 records from seven standardized Collaboration Logs across six active workspaces**. Freezing the corpus established a common analytical boundary while the underlying scientific projects continued to develop. Logs using substantially different structures were retained as contextual information but were excluded from the standardized corpus. The manuscript-development Collaboration Log was created after the analytical boundary and was examined separately as a subsequent example of the workflow in use.
+
+The retrospective analysis used the structured Collaboration Logs and the scientific records and artifacts linked from them. Project-specific scientific findings were withheld to protect private research and collaborators. Instead, the analysis examined collaboration functions represented in the records, including task assignment and lead or review roles, reciprocal correction, handoffs and session continuity, management of accepted project state, literature and citation checking, code and analysis review, artifact and execution evidence, and operational problems that motivated subsequent corrective practices. The analysis was qualitative and descriptive. Because synchronized exports of the underlying chat conversations were not part of the study record, the unit of examination was the durable collaboration record rather than individual conversational exchanges, and interaction-level frequencies or timing measures were not estimated.
+
+The corpus spanned multiple model releases and platform configurations. Historical records were associated with a specific model version only when that information had been documented at the time. Tasks were assigned by the User according to project needs rather than randomized or matched between platforms. The retrospective analysis therefore characterizes how the workflow operated within one investigator's sustained scientific practice. Prospective studies across investigators, scientific domains, platform combinations, and assignment strategies will be needed to evaluate general performance and comparative effectiveness.
+
+We separately assessed how the recorded workflow and its linked research products supported FAIR-oriented research practice. Because the FAIR principles apply to digital research objects, the assessment focused on whether the collaboration record helped preserve and connect information needed to make scientific products findable, accessible, interoperable, and reusable [@doi:10.1038/sdata.2016.18]. The materials examined included Collaboration Logs, notebooks and accepted-state records, handoffs, repository and commit identifiers, code and configuration records, execution evidence, citation-validation records, and artifact locations.
+
+For **Findability**, we examined searchable descriptions and stable identifiers that exposed the location and state of research objects. For **Accessibility**, we examined documented access conditions and whether intended participants could retrieve the referenced records and artifacts. For **Interoperability**, we examined repeated machine-readable fields and identifiers used to connect records and artifacts across platforms and storage systems. For **Reusability**, we examined preservation of scientific rationale, provenance, execution information, limitations, review history, and links to supporting materials. A feature was counted as documented support when the relevant record or linked object was present and retrievable in the study materials. Missing or inaccessible artifacts, incomplete execution information, invalid identifiers or checksums, and other documented limitations were recorded as incomplete support. Findings were summarized descriptively rather than combined into a numerical FAIR score.
 
 
 # Results
