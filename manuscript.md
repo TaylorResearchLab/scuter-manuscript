@@ -1,5 +1,5 @@
 ---
-title: 'SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research'
+title: 'SCUTER: A Framework for AI Collaboration with Scientific Notebooks'
 keywords:
 - artificial intelligence
 - scientific collaboration
@@ -19,15 +19,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research" />
-  <meta name="citation_title" content="SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research" />
-  <meta property="og:title" content="SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research" />
-  <meta property="twitter:title" content="SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research" />
+  <meta name="dc.title" content="SCUTER: A Framework for AI Collaboration with Scientific Notebooks" />
+  <meta name="citation_title" content="SCUTER: A Framework for AI Collaboration with Scientific Notebooks" />
+  <meta property="og:title" content="SCUTER: A Framework for AI Collaboration with Scientific Notebooks" />
+  <meta property="twitter:title" content="SCUTER: A Framework for AI Collaboration with Scientific Notebooks" />
   <meta name="dc.date" content="2026-09-10" />
   <meta name="citation_publication_date" content="2026-09-10" />
   <meta property="article:published_time" content="2026-09-10" />
-  <meta name="dc.modified" content="2026-09-10T17:29:59+00:00" />
-  <meta property="article:modified_time" content="2026-09-10T17:29:59+00:00" />
+  <meta name="dc.modified" content="2026-09-10T17:30:08+00:00" />
+  <meta property="article:modified_time" content="2026-09-10T17:30:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/ff12ae31a7610bba60f377d83767fc72faf8c0fc/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/ff12ae31a7610bba60f377d83767fc72faf8c0fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/ff12ae31a7610bba60f377d83767fc72faf8c0fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/d5cacd5853fefe5096fd7161810ffbfff1aa5f2b/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/d5cacd5853fefe5096fd7161810ffbfff1aa5f2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/d5cacd5853fefe5096fd7161810ffbfff1aa5f2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/ff12ae31a7610bba60f377d83767fc72faf8c0fc/))
+([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/d5cacd5853fefe5096fd7161810ffbfff1aa5f2b/))
 was automatically generated
-from [TaylorResearchLab/scuter-manuscript@ff12ae3](https://github.com/TaylorResearchLab/scuter-manuscript/tree/ff12ae31a7610bba60f377d83767fc72faf8c0fc)
+from [TaylorResearchLab/scuter-manuscript@d5cacd5](https://github.com/TaylorResearchLab/scuter-manuscript/tree/d5cacd5853fefe5096fd7161810ffbfff1aa5f2b)
 on September 10, 2026.
 </em></small>
 
