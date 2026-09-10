@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/TaylorResearchLab/scuter-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://TaylorResearchLab.github.io/scuter-manuscript/>.
-The permalink for this webpage version is <https://TaylorResearchLab.github.io/scuter-manuscript/v/6e7de3b8128324433b8e3f5ff4f890df7125659c/>.
+The permalink for this webpage version is <https://TaylorResearchLab.github.io/scuter-manuscript/v/60f57b450bf9c800f185099a00a97ae51af38e20/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://TaylorResearchLab.github.io/scuter-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`6e7de3b8128324433b8e3f5ff4f890df7125659c`](https://github.com/TaylorResearchLab/scuter-manuscript/commit/6e7de3b8128324433b8e3f5ff4f890df7125659c).
+[`60f57b450bf9c800f185099a00a97ae51af38e20`](https://github.com/TaylorResearchLab/scuter-manuscript/commit/60f57b450bf9c800f185099a00a97ae51af38e20).
