@@ -1,30 +1,20 @@
 ---
-title: "Manuscript Title"
-date: null  # Defaults to date generated, but can specify like '2022-10-31'.
+title: "SCUTER: Scientific Collaboration for User-directed, Traceable, Evidence-based Research"
+date: null
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - artificial intelligence
+  - scientific collaboration
+  - human-AI collaboration
+  - reproducibility
+  - provenance
+  - FAIR
+  - Manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - name: Deanne M. Taylor
+    initials: DMT
+    email: taylordm@chop.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, Pennsylvania, USA
+      - Department of Pediatrics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA
     corresponding: true
