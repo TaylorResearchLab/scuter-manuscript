@@ -1,4 +1,4 @@
-# SCUTER: A Framework for AI Collaboration with Scientific Notebooks
+# SCUTER: A User-Directed Framework for Reproducible Scientific Collaboration Across AI Systems
 
 This repository contains the primary manuscript describing **SCUTER**, a workflow for sustained scientific collaboration across AI platforms while preserving human scientific authority, provenance, review, evidence, and continuity across sessions.
 
