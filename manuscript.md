@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2026-09-11" />
   <meta name="citation_publication_date" content="2026-09-11" />
   <meta property="article:published_time" content="2026-09-11" />
-  <meta name="dc.modified" content="2026-09-11T07:17:17+00:00" />
-  <meta property="article:modified_time" content="2026-09-11T07:17:17+00:00" />
+  <meta name="dc.modified" content="2026-09-11T10:35:23+00:00" />
+  <meta property="article:modified_time" content="2026-09-11T10:35:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/fa36d5ccedebed2c5c69305c16c14f882bda6edb/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/fa36d5ccedebed2c5c69305c16c14f882bda6edb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/fa36d5ccedebed2c5c69305c16c14f882bda6edb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/fa36d5ccedebed2c5c69305c16c14f882bda6edb/))
+([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/))
 was automatically generated
-from [TaylorResearchLab/scuter-manuscript@fa36d5c](https://github.com/TaylorResearchLab/scuter-manuscript/tree/fa36d5ccedebed2c5c69305c16c14f882bda6edb)
+from [TaylorResearchLab/scuter-manuscript@7dd26cf](https://github.com/TaylorResearchLab/scuter-manuscript/tree/7dd26cf7df6e03565b0ce59538fdf06be073564d)
 on September 11, 2026.
 </em></small>
 

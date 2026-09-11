@@ -3,7 +3,7 @@ arxiv
 ChatGPT
 checksums
 Findability
-findable
+Findable
 GPT
 handoffs
 inspectable
