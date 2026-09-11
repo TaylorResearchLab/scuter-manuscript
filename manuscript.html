@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Deanne M. Taylor" />
-  <meta name="dcterms.date" content="2026-09-10" />
+  <meta name="dcterms.date" content="2026-09-11" />
   <meta name="keywords" content="artificial intelligence, scientific collaboration, human-AI collaboration, reproducibility, provenance, FAIR, Manubot" />
   <title>SCUTER: A User-Directed Framework for Reproducible Scientific Collaboration Across AI Systems</title>
   <style>
@@ -50,11 +50,11 @@
   <meta name="citation_title" content="SCUTER: A User-Directed Framework for Reproducible Scientific Collaboration Across AI Systems" />
   <meta property="og:title" content="SCUTER: A User-Directed Framework for Reproducible Scientific Collaboration Across AI Systems" />
   <meta property="twitter:title" content="SCUTER: A User-Directed Framework for Reproducible Scientific Collaboration Across AI Systems" />
-  <meta name="dc.date" content="2026-09-10" />
-  <meta name="citation_publication_date" content="2026-09-10" />
-  <meta property="article:published_time" content="2026-09-10" />
-  <meta name="dc.modified" content="2026-09-10T20:51:29+00:00" />
-  <meta property="article:modified_time" content="2026-09-10T20:51:29+00:00" />
+  <meta name="dc.date" content="2026-09-11" />
+  <meta name="citation_publication_date" content="2026-09-11" />
+  <meta property="article:published_time" content="2026-09-11" />
+  <meta name="dc.modified" content="2026-09-11T06:53:29+00:00" />
+  <meta property="article:modified_time" content="2026-09-11T06:53:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/4595ebcf4f7c9768d12053dad56176b2f07ba4d8/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/4595ebcf4f7c9768d12053dad56176b2f07ba4d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/4595ebcf4f7c9768d12053dad56176b2f07ba4d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/482a2726ecc76a0053705f0b98cb9a5838591d97/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/482a2726ecc76a0053705f0b98cb9a5838591d97/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/482a2726ecc76a0053705f0b98cb9a5838591d97/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,10 +89,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://TaylorResearchLab.github.io/scuter-manuscript/v/4595ebcf4f7c9768d12053dad56176b2f07ba4d8/">permalink</a>)
+(<a href="https://TaylorResearchLab.github.io/scuter-manuscript/v/482a2726ecc76a0053705f0b98cb9a5838591d97/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/TaylorResearchLab/scuter-manuscript/tree/4595ebcf4f7c9768d12053dad56176b2f07ba4d8">TaylorResearchLab/scuter-manuscript@4595ebc</a>
-on September 10, 2026.
+from <a href="https://github.com/TaylorResearchLab/scuter-manuscript/tree/482a2726ecc76a0053705f0b98cb9a5838591d97">TaylorResearchLab/scuter-manuscript@482a272</a>
+on September 11, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -130,6 +130,101 @@ Deanne M. Taylor &lt;taylordm@chop.edu&gt;.</p>
 <p>We separately assessed how the recorded workflow and its linked research products supported FAIR-oriented research practice. Because the FAIR principles apply to digital research objects, the assessment focused on whether the collaboration record helped preserve and connect information needed to make scientific products findable, accessible, interoperable, and reusable <span class="citation" data-cites="6DjakjNS">[<a href="#ref-6DjakjNS" role="doc-biblioref">6</a>]</span>. The materials examined included Collaboration Logs, notebooks and accepted-state records, handoffs, repository and commit identifiers, code and configuration records, execution evidence, citation-validation records, and artifact locations.</p>
 <p>For <strong>Findability</strong>, we examined searchable descriptions and stable identifiers that exposed the location and state of research objects. For <strong>Accessibility</strong>, we examined documented access conditions and whether intended participants could retrieve the referenced records and artifacts. For <strong>Interoperability</strong>, we examined repeated machine-readable fields and identifiers used to connect records and artifacts across platforms and storage systems. For <strong>Reusability</strong>, we examined preservation of scientific rationale, provenance, execution information, limitations, review history, and links to supporting materials. A feature was counted as documented support when the relevant record or linked object was present and retrievable in the study materials. Missing or inaccessible artifacts, incomplete execution information, invalid identifiers or checksums, and other documented limitations were recorded as incomplete support. Findings were summarized descriptively rather than combined into a numerical FAIR score.</p>
 <h1 id="results">Results</h1>
+<h2 id="scientific-work-across-scuter-projects">Scientific work across SCUTER projects</h2>
+<p>The frozen corpus contained 728 records from seven SCUTER-standardized Collaboration Logs across six active scientific workspaces. Log entries spanned the full scientific task cycle: research questions were defined and revised, literature was reviewed, analyses and software were developed, results were interpreted, and manuscripts or other research products were prepared. As in any scientific endeavor, these activities often overlapped, and later findings sometimes required earlier assumptions or analyses to be reconsidered.</p>
+<p>The research phases in the SCUTER cycle can be broadly categorized as: 1. project setup, 2. scientific planning, 3. organization of research materials, 4. literature review, 5. active research, 6. product development, and 7. release or archiving. Projects moved in and out of these phases as the research progressed.</p>
+<p>Individual tasks within different phases followed a similarly recurring pattern: the User assigned or redirected work, GPT or Claude followed directions and recorded the supporting evidence or artifacts, reviews occurred when appropriate, and the User decided what conclusions or revisions should be carried forward. Figure 1 summarizes how these individual tasks contributed to the larger course of a scientific project.</p>
+<h2 id="user-guided-assignments">User-guided assignments</h2>
+<p>Either GPT or Claude could be assigned to any task by the User, based on a project’s scientific need. Either agent could subsequently review work produced by the other. In SCUTER, there is no assumed, fixed division of labor between the agents, and it is up to the User to decide on assignments.</p>
+<p>Repeated assignments, corrections, and project-specific context also progressively focused each agent on the User’s scientific problem. We refer to this as User-directed task specialization: the project’s record increasingly focused the agents through scientific instructions, evidence, prior decisions, and feedback.</p>
+<p>The Collaboration Logs allowed work to move asynchronously between AI systems and between chat sessions without requiring direct communication between them. The User evaluated the reviews, requested additional work when needed, and determined which conclusions should be carried forward.</p>
+<h2 id="problems-identified-during-use">Problems identified during use</h2>
+<p>The Collaboration Logs also recorded problems that became apparent during sustained use of the workflow. Agents did not always record substantive work unless explicitly reminded by the User, and research artifacts could be lost when scripts or other intermediate products were generated and used without being preserved. Another recurring problem was an assumption of novelty before the relevant prior work had been established. Because an AI-generated statement cannot establish where an idea originated or whether comparable work already exists, claims of novelty require explicit review of the scientific literature and other relevant prior art. This is an efficiency as well as a proper scientific conduct issue; aligning a research project with the literature avoids time wasted on re-discovering prior art.</p>
+<p>Another challenge commonly faced with AI collaboration concerns scientific responsibility. The User must ultimately assume full responsibility for research products, but meaningful acceptance requires a record that can actually be reviewed both by the User and the scientific community. The Collaboration Log and associated notebooks provide a written account of what was done, what evidence and artifacts supported the work, what reviews occurred, and which conclusions were being carried forward. This gives the User a practical means to organize, review and explicitly accept the research record rather than relying on a transient sequence of AI conversations embedded in chat logs.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem observed</th>
+<th>Practice adopted</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agents failed to record substantive work consistently</td>
+<td>Require substantive work to be recorded in the Collaboration Log, with User review when entries are missing</td>
+</tr>
+<tr class="even">
+<td>Scripts and other research products were not always preserved after use</td>
+<td>Create a version-controlled repository at project initiation and preserve research products, including small intermediate artifacts</td>
+</tr>
+<tr class="odd">
+<td>Agents could assume or assert novelty without establishing prior art</td>
+<td>Require thorough prior-art searches before making novelty claims, record supporting sources, and revisit prior art as the research develops</td>
+</tr>
+<tr class="even">
+<td>The User could not meaningfully accept responsibility for work that was not presented in a reviewable record</td>
+<td>Maintain a readable research record of methods, evidence, artifacts, reviews, decisions, and accepted conclusions so the User can provide documented informed acceptance</td>
+</tr>
+<tr class="odd">
+<td>Claims or analyses without adequate support</td>
+<td>Link assertions to supporting evidence and verify the underlying sources</td>
+</tr>
+<tr class="even">
+<td>Differences between written records and stored files or results</td>
+<td>Inspect and verify the referenced artifacts directly</td>
+</tr>
+<tr class="odd">
+<td>Incomplete computational records</td>
+<td>Record code version, inputs, configuration, commands, and outputs when needed for reproducibility</td>
+</tr>
+<tr class="even">
+<td>Uncertainty about whether work had been reviewed or accepted</td>
+<td>Record review and acceptance status explicitly in the Collaboration Log</td>
+</tr>
+<tr class="odd">
+<td>Files that could not be located or accessed</td>
+<td>Verify artifact location and accessibility before relying on them</td>
+</tr>
+</tbody>
+</table>
+<p>These practices were added iteratively as problems were encountered rather than specified as a complete protocol at the beginning of the projects.</p>
+<h2 id="support-for-fair-research-practices">Support for FAIR research practices</h2>
+<p>We assessed whether the Collaboration Logs and linked research products supported FAIR-oriented research practice. SCUTER provided places to record information relevant to all four FAIR principles: searchable descriptions and links helped locate research products; artifact locations and access conditions documented how materials could be retrieved; structured fields and persistent identifiers connected records across Notion, GitHub, and computational environments; and methods, evidence, versions, review history, and limitations provided information needed for later reuse.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>FAIR principle</th>
+<th>Support observed in SCUTER records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Findable</td>
+<td>Searchable log entries linked scientific work to files, repositories, commits, sources, and other research records</td>
+</tr>
+<tr class="even">
+<td>Accessible</td>
+<td>Records identified where research products were stored and how intended participants could retrieve them</td>
+</tr>
+<tr class="odd">
+<td>Interoperable</td>
+<td>Repeated structured fields and identifiers connected records and artifacts across the tools used in the projects</td>
+</tr>
+<tr class="even">
+<td>Reusable</td>
+<td>Records retained scientific rationale, methods, evidence, versions, review history, and limitations needed to interpret or reproduce prior work</td>
+</tr>
+</tbody>
+</table>
+<p>FAIR support depended on the completeness of the research record. Unlogged work, missing artifacts, incomplete execution information, and inaccessible files reduced that support. SCUTER therefore did not make a research project FAIR automatically; it provided a structure in which information needed for FAIR research practice could be recorded, reviewed, and corrected.</p>
 <h1 id="discussion">Discussion</h1>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
