@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2026-09-11" />
   <meta name="citation_publication_date" content="2026-09-11" />
   <meta property="article:published_time" content="2026-09-11" />
-  <meta name="dc.modified" content="2026-09-11T10:35:23+00:00" />
-  <meta property="article:modified_time" content="2026-09-11T10:35:23+00:00" />
+  <meta name="dc.modified" content="2026-09-11T10:37:23+00:00" />
+  <meta property="article:modified_time" content="2026-09-11T10:37:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/scuter-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/scuter-manuscript/v/20a15125a863811a2030b3412d046e75bfaffc73/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/20a15125a863811a2030b3412d046e75bfaffc73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/scuter-manuscript/v/20a15125a863811a2030b3412d046e75bfaffc73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/7dd26cf7df6e03565b0ce59538fdf06be073564d/))
+([permalink](https://TaylorResearchLab.github.io/scuter-manuscript/v/20a15125a863811a2030b3412d046e75bfaffc73/))
 was automatically generated
-from [TaylorResearchLab/scuter-manuscript@7dd26cf](https://github.com/TaylorResearchLab/scuter-manuscript/tree/7dd26cf7df6e03565b0ce59538fdf06be073564d)
+from [TaylorResearchLab/scuter-manuscript@20a1512](https://github.com/TaylorResearchLab/scuter-manuscript/tree/20a15125a863811a2030b3412d046e75bfaffc73)
 on September 11, 2026.
 </em></small>
 
@@ -150,7 +150,9 @@ The frozen corpus contained 728 records from seven SCUTER-standardized Collabora
 
 The research phases in the SCUTER cycle can be broadly categorized as: 1. project setup, 2. scientific planning, 3. organization of research materials, 4. literature review, 5. active research, 6. product development, and 7. release or archiving. Projects moved in and out of these phases as the research progressed.
 
-Individual tasks within different phases followed a similarly recurring pattern: the User assigned or redirected work, GPT or Claude followed directions and recorded the supporting evidence or artifacts, reviews occurred when appropriate, and the User decided what conclusions or revisions should be carried forward. Figure 1 summarizes how these individual tasks contributed to the larger course of a scientific project.
+Individual tasks within different phases followed a similarly recurring pattern: the User assigned or redirected work, GPT or Claude followed directions and recorded the supporting evidence or artifacts, reviews occurred when appropriate, and the User decided what conclusions or revisions should be carried forward. Figure @fig:workflow summarizes how these individual tasks contributed to the larger course of a scientific project.
+
+![SCUTER workflow for human-governed collaboration across AI platforms. The User can assign work to either Agent A or Agent B; work products and review findings are recorded through the Collaboration Log / Scientific Notebook; the User examines the accumulated record and review, decides whether to accept, reject, revise, or reassign, and accepted work is integrated into versioned artifacts.](images/Figure1.svg){#fig:workflow width=100%}
 
 ## User-guided assignments
 
