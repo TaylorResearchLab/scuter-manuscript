@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "id": "arxiv:2308.00352",
+    "type": "report",
+    "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+    "URL": "https://arxiv.org/abs/2308.00352",
+    "number": "2308.00352",
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [[2024, 11, 4]]
+    },
+    "author": [
+      {"given": "Sirui", "family": "Hong"},
+      {"given": "Mingchen", "family": "Zhuge"},
+      {"given": "Jiaqi", "family": "Chen"},
+      {"given": "Xiawu", "family": "Zheng"},
+      {"given": "Yuheng", "family": "Cheng"},
+      {"given": "Ceyao", "family": "Zhang"},
+      {"given": "Jinlin", "family": "Wang"},
+      {"given": "Zili", "family": "Wang"},
+      {"given": "Steven Ka Shing", "family": "Yau"},
+      {"given": "Zijuan", "family": "Lin"},
+      {"given": "Liyang", "family": "Zhou"},
+      {"given": "Chenyu", "family": "Ran"},
+      {"given": "Lingfeng", "family": "Xiao"},
+      {"given": "Chenglin", "family": "Wu"},
+      {"given": "Jürgen", "family": "Schmidhuber"}
+    ]
+  },
+  {
+    "id": "doi:10.1609/aimag.v7i2.537",
+    "type": "article-journal",
+    "title": "PART ONE: The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures",
+    "DOI": "10.1609/aimag.v7i2.537",
+    "URL": "https://dl.acm.org/doi/abs/10.1609/aimag.v7i2.537",
+    "container-title": "AI Magazine",
+    "volume": "7",
+    "issue": "2",
+    "page": "38-53",
+    "issued": {
+      "date-parts": [[1986, 6, 15]]
+    },
+    "author": [
+      {"literal": "H. Penny Nii"}
+    ]
+  },
+  {
+    "id": "url:https://www.w3.org/TR/2013/REC-prov-dm-20130430",
+    "type": "report",
+    "title": "PROV-DM: The PROV Data Model",
+    "URL": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+    "publisher": "World Wide Web Consortium",
+    "genre": "W3C Recommendation",
+    "issued": {
+      "date-parts": [[2013, 4, 30]]
+    },
+    "author": [
+      {"literal": "World Wide Web Consortium"}
+    ],
+    "editor": [
+      {"given": "Luc", "family": "Moreau"},
+      {"given": "Paolo", "family": "Missier"}
+    ]
+  },
+  {
+    "id": "arxiv:2602.19810v3",
+    "type": "report",
+    "title": "From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science",
+    "URL": "https://arxiv.org/abs/2602.19810v3",
+    "number": "2602.19810v3",
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "version": "3",
+    "issued": {
+      "date-parts": [[2026, 3, 4]]
+    },
+    "author": [
+      {"given": "Lukas", "family": "Weidener"},
+      {"given": "Marko", "family": "Brkić"},
+      {"given": "Phillip", "family": "Lee"},
+      {"given": "Martin", "family": "Karlsson"},
+      {"given": "Kevin", "family": "Noessler"},
+      {"given": "Paul", "family": "Kohlhaas"}
+    ]
+  }
+]
